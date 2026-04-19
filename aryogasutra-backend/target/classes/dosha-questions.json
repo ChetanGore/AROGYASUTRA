@@ -1,0 +1,47 @@
+[
+  {
+    "id": "q1",
+    "text": "How is your body frame?",
+    "options": [
+      { "label": "Thin, light, hard to gain weight", "vata": 2, "pitta": 0, "kapha": 0 },
+      { "label": "Medium, muscular", "vata": 0, "pitta": 2, "kapha": 0 },
+      { "label": "Broad, gains weight easily", "vata": 0, "pitta": 0, "kapha": 2 }
+    ]
+  },
+  {
+    "id": "q2",
+    "text": "Your skin tends to be:",
+    "options": [
+      { "label": "Dry, rough, cool", "vata": 2, "pitta": 0, "kapha": 0 },
+      { "label": "Warm, sensitive, reddish", "vata": 0, "pitta": 2, "kapha": 0 },
+      { "label": "Oily, smooth, thick", "vata": 0, "pitta": 0, "kapha": 2 }
+    ]
+  },
+  {
+    "id": "q3",
+    "text": "Your digestion / appetite:",
+    "options": [
+      { "label": "Irregular, variable hunger", "vata": 2, "pitta": 0, "kapha": 0 },
+      { "label": "Strong, sharp hunger, acidic if skipped", "vata": 0, "pitta": 2, "kapha": 0 },
+      { "label": "Slow, can skip meals, feels heavy after eating", "vata": 0, "pitta": 0, "kapha": 2 }
+    ]
+  },
+  {
+    "id": "q4",
+    "text": "Your energy through the day:",
+    "options": [
+      { "label": "Comes in bursts; tired if ungrounded", "vata": 2, "pitta": 0, "kapha": 0 },
+      { "label": "Intense, focused, irritable when overheated", "vata": 0, "pitta": 2, "kapha": 0 },
+      { "label": "Steady, prefers routine, dislikes cold/damp", "vata": 0, "pitta": 0, "kapha": 2 }
+    ]
+  },
+  {
+    "id": "q5",
+    "text": "Your mind / mood pattern:",
+    "options": [
+      { "label": "Creative but anxious or scattered", "vata": 2, "pitta": 0, "kapha": 0 },
+      { "label": "Competitive, precise, critical when stressed", "vata": 0, "pitta": 2, "kapha": 0 },
+      { "label": "Calm, steady, resistant to change", "vata": 0, "pitta": 0, "kapha": 2 }
+    ]
+  }
+]

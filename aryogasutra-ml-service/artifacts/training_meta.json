@@ -1,0 +1,16 @@
+{
+  "accuracy": 0.0,
+  "n_samples": 20,
+  "labels": [
+    "Acid Reflux",
+    "Anxiety Disorder",
+    "Circulatory Weakness",
+    "Common Cold",
+    "Digestive Imbalance",
+    "Influenza",
+    "Metabolic Sluggishness",
+    "Migraine",
+    "Osteoarthritis",
+    "Skin Inflammation"
+  ]
+}

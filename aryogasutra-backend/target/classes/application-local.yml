@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    # File-based H2 — data persists in user home directory across restarts
+    url: jdbc:h2:file:${user.home}/aryogasutra-db/aryogasutra;DB_CLOSE_ON_EXIT=FALSE;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${MAIL_USERNAME:noreply.aryogasutra@gmail.com}
+    password: ${MAIL_PASSWORD:}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+aryogasutra:
+  allow-admin-register: true
+  notifications:
+    enabled: ${NOTIFICATIONS_ENABLED:false}
+    from-email: ${MAIL_USERNAME:noreply.aryogasutra@gmail.com}
